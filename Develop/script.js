@@ -32,9 +32,9 @@ function writePassword() {
   var includeSpecial = confirm("Want to include special letters?");
 
   var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  var lowercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var lowercase = "abcdefghijjklmnopqrstuvwxyz";
   var numeric = "0123456789";
-  var special = "$#*!@&?";
+  var special = "$#*!@&?+-<>%^()";
 
   var validChars = "";
 
